@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.HomePage{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.togg{
+  display: inline-flex;
+  text-align: center;
+}
+
+.signin{
+  padding: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signup{
+  padding: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: grey;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  font-family: 'Jura', sans-serif;
+}
+
+h1{
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+button{
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-family: 'Jura', sans-serif;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+.text_input{
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  background-color: grey;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  font-family: 'Jura', sans-serif;
+}
+
+.send_button{
+  font-size: 20px;
+  width: 20%;
+  height: 53px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-family: 'Jura', sans-serif;
+}
+
+.signout_button{
+  font-size: 20px;
+  width: 100px;
+  height: 53px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Jura', sans-serif;
+}
+
+.current_user{
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.user{
+  display: inline;
+  text-align: center;
+}
+
+.messaging{
+  border-top: 1px solid black;
+  width: 100%;
+  margin-top: 66%;
+  padding-top: 1%;
+}
+
+.header{
+  border-right: 1px solid black;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+}
+
+.message{
+  border: 1px solid black;
+  text-align: justify;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.message_box{
+  display: inline;
+  width: 50%;
+  position: absolute;
+}
+
+.username{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
